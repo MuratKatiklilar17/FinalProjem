@@ -1,6 +1,6 @@
 language: java
 script:
-  - "mvn -f FinalProjem/pom.xml clean install cobertura:cobertura"
+  - "mvn -f pom.xml clean install cobertura:cobertura"
 jdk:
   - openjdk8
 before_install:
