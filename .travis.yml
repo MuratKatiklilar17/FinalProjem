@@ -3,7 +3,5 @@ script:
   - "mvn -f pom.xml clean install cobertura:cobertura"
 jdk:
   - openjdk8
-before_install:
-  - chmod + x mvnw  
 after_success:
   - bash <(curl -s https://codecov.io/bash)
