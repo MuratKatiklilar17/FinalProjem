@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("/hasta")
+@RequestMapping("/Hasta")
 public class HastaRestApi {
 
 	public static List<String> hastalar = new ArrayList<>();
